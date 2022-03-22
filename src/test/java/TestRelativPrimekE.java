@@ -1,7 +1,7 @@
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class TestRelatívPrimekE {
+public class TestRelativPrimekE {
 
    @Test
    public void testEgyEgy() {
@@ -9,7 +9,7 @@ public class TestRelatívPrimekE {
       int b= 1;
       boolean expected=true;
        boolean actual = MySolution.relativPrimekE(a,b);
-      Assertions.assertEquals(expected,actual,a+" "+b+"  szamok eseten rosszul hatarozta meg, hogy relatiív primek-e!");
+      Assertions.assertEquals(expected,actual,a+" "+b+"  szamok eseten rosszul hatarozta meg, hogy relativ primek-e!");
    }
 
    @Test
@@ -18,7 +18,7 @@ public class TestRelatívPrimekE {
       int b= 5;
       boolean expected=true;
        boolean actual = MySolution.relativPrimekE(a,b);
-      Assertions.assertEquals(expected,actual,a+" "+b+"  szamok eseten rosszul hatarozta meg, hogy relatiív primek-e!");
+      Assertions.assertEquals(expected,actual,a+" "+b+"  szamok eseten rosszul hatarozta meg, hogy relativ primek-e!");
    }
 
    @Test
@@ -27,7 +27,7 @@ public class TestRelatívPrimekE {
       int b= 24;
      boolean expected=false;
        boolean actual = MySolution.relativPrimekE(a,b);
-      Assertions.assertEquals(expected,actual,a+" "+b+"  szamok eseten rosszul hatarozta meg, hogy relatiív primek-e!");
+      Assertions.assertEquals(expected,actual,a+" "+b+"  szamok eseten rosszul hatarozta meg, hogy relativ primek-e!");
    }
 
    @Test
@@ -36,7 +36,7 @@ public class TestRelatívPrimekE {
       int b = 120;
       boolean expected = false;
       boolean actual = MySolution.relativPrimekE(a, b);
-      Assertions.assertEquals(expected, actual, a + " " + b + "  szamok eseten rosszul hatarozta meg, hogy relatiív primek-e!");
+      Assertions.assertEquals(expected, actual, a + " " + b + "  szamok eseten rosszul hatarozta meg, hogy relativ primek-e!");
    }
 
    @Test
@@ -45,7 +45,7 @@ public class TestRelatívPrimekE {
       int b = 751;
       boolean expected = true;
       boolean actual = MySolution.relativPrimekE(a, b);
-      Assertions.assertEquals(expected, actual, a + " " + b + "  szamok eseten rosszul hatarozta meg, hogy relatiív primek-e!");
+      Assertions.assertEquals(expected, actual, a + " " + b + "  szamok eseten rosszul hatarozta meg, hogy relativ primek-e!");
    }
    @Test
    public void test999_666() {
@@ -53,7 +53,7 @@ public class TestRelatívPrimekE {
       int b = 666;
       boolean expected = false;
       boolean actual = MySolution.relativPrimekE(a, b);
-      Assertions.assertEquals(expected, actual, a + " " + b + "  szamok eseten rosszul hatarozta meg, hogy relatiív primek-e!");
+      Assertions.assertEquals(expected, actual, a + " " + b + "  szamok eseten rosszul hatarozta meg, hogy relativ primek-e!");
    }
 
 
