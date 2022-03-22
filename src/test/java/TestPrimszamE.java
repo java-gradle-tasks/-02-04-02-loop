@@ -53,7 +53,7 @@ public class TestPrimszamE {
 
    @Test
    public void test_6() {
-      int a=5;
+      int a=6;
       boolean expected=false;
       boolean actual = MySolution.primszamE(a);
       Assertions.assertEquals(expected,actual,a+ " szam eseten rosszul hatarozta meg, hogy primszam-e!.");
@@ -61,7 +61,7 @@ public class TestPrimszamE {
 
    @Test
    public void test_11() {
-      int a=5;
+      int a=11;
       boolean expected=true;
       boolean actual = MySolution.primszamE(a);
       Assertions.assertEquals(expected,actual,a+ " szam eseten rosszul hatarozta meg, hogy primszam-e!.");
@@ -69,7 +69,7 @@ public class TestPrimszamE {
 
    @Test
    public void test_15() {
-      int a=5;
+      int a=15;
       boolean expected=false;
       boolean actual = MySolution.primszamE(a);
       Assertions.assertEquals(expected,actual,a+ " szam eseten rosszul hatarozta meg, hogy primszam-e!.");
@@ -93,7 +93,7 @@ public class TestPrimszamE {
 
    @Test
    public void test_4483() {
-      int a=999;
+      int a=4483;
       boolean expected=true;
       boolean actual = MySolution.primszamE(a);
       Assertions.assertEquals(expected,actual,a+ " szam eseten rosszul hatarozta meg, hogy primszam-e!.");
